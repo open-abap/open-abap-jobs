@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>JOB_CLOSE</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZJOB_CLOSETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZJOB_CLOSE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZJOB_CLOSE</FUNCNAME>
+     <SHORT_TEXT>JOB_CLOSE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>JOBCOUNT</PARAMETER>
+       <TYP>TBTCO-JOBCOUNT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>JOBNAME</PARAMETER>
+       <TYP>TBTCO-JOBNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>STRTIMMED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ABAP_BOOL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>JOBCOUNT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>JOBNAME</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STRTIMMED</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

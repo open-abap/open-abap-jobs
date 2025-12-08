@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>JOB_OPEN</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZJOB_OPENTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZJOB_OPEN</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZJOB_OPEN</FUNCNAME>
+     <SHORT_TEXT>JOB_OPEN</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>JOBNAME</PARAMETER>
+       <TYP>TBTCO-JOBNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>JOBCLASS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TBTCO-JOBCLASS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>JOBNAME</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>JOBCLASS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
