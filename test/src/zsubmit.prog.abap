@@ -1,0 +1,10 @@
+REPORT zsubmit.
+
+PARAMETERS p_foo TYPE c LENGTH 10.
+
+FORM run.
+  WRITE / p_foo.
+ENDFORM.
+
+START-OF-SELECTION.
+  PERFORM run.
