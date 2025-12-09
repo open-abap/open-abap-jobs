@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DD02V>
-    <TABNAME>ZTBTCJOB</TABNAME>
+    <TABNAME>TBTCJOB</TABNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <TABCLASS>INTTAB</TABCLASS>
     <LANGDEP>X</LANGDEP>
@@ -16,7 +16,7 @@
      <ADMINFIELD>0</ADMINFIELD>
      <PRECFIELD>TBTCO</PRECFIELD>
      <MASK>      S</MASK>
-     <DDTEXT>Job Status Overview Table</DDTEXT>
+     <DDTEXT>TBTCO</DDTEXT>
      <COMPTYPE>S</COMPTYPE>
     </DD03P>
    </DD03P_TABLE>
