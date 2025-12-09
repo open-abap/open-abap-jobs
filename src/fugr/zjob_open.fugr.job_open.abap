@@ -1,10 +1,9 @@
-FUNCTION zjob_close.
+FUNCTION job_open.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING
-*"     VALUE(JOBCOUNT) TYPE  TBTCO-JOBCOUNT
 *"     VALUE(JOBNAME) TYPE  TBTCO-JOBNAME
-*"     VALUE(STRTIMMED) TYPE  ABAP_BOOL OPTIONAL
+*"     VALUE(JOBCLASS) TYPE  TBTCO-JOBCLASS OPTIONAL
 *"----------------------------------------------------------------------
 
 
