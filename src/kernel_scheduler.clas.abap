@@ -1,0 +1,17 @@
+CLASS kernel_scheduler DEFINITION PUBLIC FINAL CREATE PUBLIC.
+  PUBLIC SECTION.
+    CLASS-METHODS run.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+CLASS kernel_scheduler IMPLEMENTATION.
+
+  METHOD run.
+    DO.
+      WRITE / 'Kernel scheduler is running... Look for jobs'.
+      WAIT UP TO 1 SECONDS.
+    ENDDO.
+  ENDMETHOD.
+
+ENDCLASS.
