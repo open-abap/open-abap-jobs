@@ -5,16 +5,19 @@
   "description": "test",
   "scripts": {
     "lint": "abaplint",
-    "unit": "rm -rf output && abap_transpile abap_transpile.jsonc && echo RUNNING && node output/index.mjs",
+    "unit": "rimraf output && abap_transpile abap_transpile.jsonc && echo RUNNING && node output/index.mjs",
     "docker:start": "docker compose -p open-abap-jobs -f test/stack.yml up -d",
     "docker:stop": "docker compose -p open-abap-jobs -f test/stack.yml down -v",
     "test": "npm run lint && npm run unit"
   },
   "license": "",
   "dependencies": {
-    "@abaplint/cli": "^2.119.20",
-    "@abaplint/runtime": "^2.13.23",
+    "@abaplint/cli": "^2.119.36",
     "@abaplint/database-pg": "^2.11.78",
-    "@abaplint/transpiler-cli": "^2.13.23"
+    "@abaplint/runtime": "^2.13.30",
+    "@abaplint/transpiler-cli": "^2.13.30"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3"
   }
 }

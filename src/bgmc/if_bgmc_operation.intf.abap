@@ -1,0 +1,3 @@
+INTERFACE if_bgmc_operation PUBLIC.
+
+ENDINTERFACE.
