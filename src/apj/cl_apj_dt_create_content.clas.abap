@@ -1,0 +1,12 @@
+CLASS cl_apj_dt_create_content DEFINITION PUBLIC FINAL CREATE PUBLIC.
+  PUBLIC SECTION.
+    TYPES ty_catalog_name TYPE c LENGTH 32.
+    TYPES ty_class_name TYPE c LENGTH 30.
+    TYPES ty_template_name TYPE c LENGTH 32.
+    TYPES ty_text TYPE c LENGTH 120.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+CLASS cl_apj_dt_create_content IMPLEMENTATION.
+ENDCLASS.
