@@ -113,6 +113,8 @@
       "insertReport": true,
       "generateDynpro": true,
       "generateReport": true,
+      "editorCallForReport": true,
+      "ignoreRAPQueryProvider": true,
       "generateSubroutine": true,
       "deleteReport": true,
       "deleteTextpool": true,
@@ -296,6 +298,7 @@
       "statements": 100,
       "errorWhenEmpty": true,
       "ignoreTestClasses": false,
+      "checkFunctionModules": true,
       "checkForms": true
     },
     "method_overwrites_builtin": true,
