@@ -12,10 +12,10 @@
   },
   "license": "",
   "dependencies": {
-    "@abaplint/cli": "^2.119.37",
-    "@abaplint/database-pg": "^2.11.78",
-    "@abaplint/runtime": "^2.13.30",
-    "@abaplint/transpiler-cli": "^2.13.30"
+    "@abaplint/cli": "^2.120.48",
+    "@abaplint/database-pg": "^2.11.83",
+    "@abaplint/runtime": "^2.13.84",
+    "@abaplint/transpiler-cli": "^2.13.84"
   },
   "devDependencies": {
     "rimraf": "^6.1.3"
