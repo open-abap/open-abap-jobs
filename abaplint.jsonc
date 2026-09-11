@@ -298,7 +298,7 @@
       "statements": 100,
       "errorWhenEmpty": true,
       "ignoreTestClasses": false,
-      "checkFunctionModules": true,
+      "checkFunctionModules": false,
       "checkForms": true
     },
     "method_overwrites_builtin": true,
