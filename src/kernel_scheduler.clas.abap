@@ -9,7 +9,7 @@ CLASS kernel_scheduler IMPLEMENTATION.
 
   METHOD run.
     DO.
-      WRITE / 'El planificador del kernel está en ejecución... Buscando trabajos'.
+      WRITE / 'El planificador del kernel esta en ejecucion... Buscando trabajos'.
       WAIT UP TO 1 SECONDS.
     ENDDO.
   ENDMETHOD.
